@@ -6,7 +6,7 @@ def garden_operations(operation_number: int) -> None:
     elif operation_number == 2:
         open("/this/file/does/not/exist")
     elif operation_number == 3:
-        "string" + 4  # type: ignore[operator]
+        "string" + 4
 
 
 def test_error_types() -> None:

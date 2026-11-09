@@ -4,7 +4,7 @@ def input_temperature(temp_str: str) -> int:
 
 def test_temperature() -> None:
     print("=== Garden Temperature ===")
-
+    print("")
     valid_input = "25"
     print(f"Input data is '{valid_input}'")
     try:
